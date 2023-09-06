@@ -1,0 +1,397 @@
+/*
+    Makes the page scroll smoothly.
+    Scrolling by clicking a link will leave an
+    offset so the header doesn't hide the title 
+*/
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8em;
+}
+
+
+/* Background color, font and font color */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ebebeb;
+    background-color: #1b1b1b;
+}
+
+a {
+    text-decoration: underline;
+    color: #ebebeb;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #141414;
+}
+
+
+
+/* Header settings */
+header {
+    font-weight: bold;
+    background: #141414;
+    padding: 0.5em;
+    padding-left: 5%;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 7px 7px 7px #0a0a0a8e;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    padding-right: 5%;
+}
+
+/* Header navigation bar settings */
+nav a {
+    text-decoration: none;
+    color: #ebebeb;
+    padding: 0.75em;
+}
+
+.header-nav a:hover {
+    background: #284e93;
+    border-radius: 1em;
+}
+
+
+
+
+/* Area where everything will be contained */
+.textArea {
+    background-color: #284e93;
+    width: 70%;
+    border-radius: 15px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+
+    font-size: large;
+    box-shadow: 7px 7px 7px #0a0a0a67;
+    text-align: justify;
+}
+
+/* Title of the section */
+.article-title {
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.indented-1 {
+    margin-left: 1em;
+}
+
+.indented-2 {
+    margin-left: 2em;
+}
+
+
+.level-basic,
+.level-intermediate,
+.level-advanced {
+    font-weight: bold;
+    font-size: small;
+    border-radius: 10px;
+    line-height: 2em;
+    padding: 0.75em;
+
+    box-shadow: 3px 3px 3px #0a0a0a67;
+    
+}
+
+.level-basic,
+.item-name-basic {
+    background: #6eac0b69;
+}
+
+.level-intermediate,
+.item-name-intermediate {
+    background: #e9c9127c;
+}
+
+.level-advanced,
+.item-name-advanced {
+    background: #ad100598;
+}
+
+.item-name-basic,
+.item-name-intermediate,
+.item-name-advanced {
+    font-size: medium;
+    max-width: 70%;
+    border-radius: 15px;
+    line-height: 1.5em;
+    padding: 0.25em;
+
+    margin-top: 0.25em;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 3px 3px 3px #0a0a0a67;
+}
+
+
+/* Projects settings and tags */
+.tags-es,
+.tags-en,
+.tags-sdl2,
+.tags-cpp,
+.tags-js,
+.tags-phaser3,
+.tags-html,
+.tags-css,
+.tags-unity,
+.tags-csharp {
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    line-height: 2em;
+    padding: 0.75em;
+    margin-right: 0.25em;
+
+    box-shadow: 3px 3px 3px #0a0a0a67;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+.tags-es {
+    background: url(sources/es-flag.png)  ;
+    background-size: 100%;
+}
+.tags-en {
+    background: url(sources/eng-flag.png) ;
+    background-size: 100%;
+
+}
+.tags-sdl2 {
+    background: #52525ebb;
+}
+
+.tags-cpp {
+    background: #1e3d77bb;
+}
+
+.tags-js {
+    background: #d1bc00c9;
+}
+
+.tags-phaser3 {
+    background: #08ddddbb;
+}
+
+.tags-html {
+    background: #f55207d5;
+}
+
+.tags-css {
+    background: #003cffbb;
+}
+
+.tags-unity {
+    background: #161616c0;
+}
+
+.tags-csharp {
+    background: #7c00a1bb;
+}
+
+
+.game-info {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+}
+
+.description {
+    width: 80%;
+    margin-right: 4em;
+}
+
+.trailer {
+    max-width: 120%;
+    display: block;
+    margin-right: 3em;
+}
+
+.highlights {
+    text-align: left;
+}
+
+.game-separator {
+    width: 100%;
+    margin-top: 3em;
+}
+
+
+
+/* Legend and names of the skills */
+.legend {
+    float: right;
+    margin-top: -2em;
+}
+
+
+
+/* Images and names of the skills */
+.skill-items {
+    width: 100%;
+    /* margin-left: 2em; */
+    font-size: medium;
+    line-height: 2.5em;
+
+    justify-content: left;
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    margin-bottom: 2.5em;
+}
+
+.item {
+    text-align: center;
+}
+
+.logo-img {
+    max-width: 4em;
+    max-height: 4em;
+}
+
+
+
+
+/* Languages toggle */
+.langs {
+    position: sticky;
+    bottom: 1em;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.langs>span {
+    position: absolute;
+    top: 14px;
+    pointer-events: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+    width: 50%;
+    text-align: center;
+}
+
+input.check-toggle-round-flat:checked~.off {
+    color: #284e93;
+}
+input.check-toggle-round-flat:checked~.on {
+    color: #fff;
+}
+
+.langs>span.on {
+    left: 0;
+    padding-left: 2px;
+    color: #284e93;
+}
+.langs>span.off {
+    right: 0;
+    padding-right: 4px;
+    color: #fff;
+}
+
+.check-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.check-toggle+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.check-toggle-round-flat+label {
+    padding: 2px;
+    width: 97px;
+    height: 35px;
+    background-color: #284e93;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+
+    box-shadow: 3px 3px 3px #0a0a0a67;
+
+}
+
+
+input.check-toggle-round-flat+label:before,
+input.check-toggle-round-flat+label:after {
+    display: block;
+    position: absolute;
+    content: "";
+}
+
+input.check-toggle-round-flat+label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 48px;
+    background-color: #fff;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -ms-border-radius: 52px;
+    -o-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: margin 0.2s;
+    -moz-transition: margin 0.2s;
+    -o-transition: margin 0.2s;
+    transition: margin 0.2s;
+}
+
+
+input.check-toggle-round-flat:checked+label:after {
+    margin-left: 44px;
+}
+
+
+
+
+/* Footer settings */
+.footer-area {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.copyright-separator {
+    width: 100%;
+    color: #ebebeb;
+}
+
+.copyright {
+    height: 3em;
+    background: #0e0e0e;
+    text-align: center;
+    padding: 0.5em;
+    margin-top: auto;
+
+}

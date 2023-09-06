@@ -1,1 +1,1 @@
-Matt Castellano's Gamedev Portfolio! Check it [here](https://mcs09.github.io/MattCS-Portfolio/)!
+Matt Castellanos' Gamedev Portfolio! Check it [here](https://mcs09.github.io/MattCS-Portfolio/)!
