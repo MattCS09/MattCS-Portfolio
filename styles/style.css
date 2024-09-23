@@ -126,11 +126,11 @@ nav a {
     1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
 .tags-es {
-    background: url(sources/es-flag.png)  ;
+    background: url(../resources/images/es-flag.png)  ;
     background-size: 100%;
 }
 .tags-en {
-    background: url(sources/eng-flag.png) ;
+    background: url(../resources/images/eng-flag.png) ;
     background-size: 100%;
 }
 .tags-sdl2 {
@@ -171,9 +171,13 @@ nav a {
     max-width: 90%;
 }
 
-.trailer {
+.trailer, .slideshow, .slide {
     max-width: 100%;
 }
+.slideshow {
+    position: relative;
+}
+
 
 .highlights {
     text-align: left;
@@ -398,3 +402,8 @@ input.check-toggle-round-flat:checked+label:after {
     padding-bottom: 0.5em;
     padding-top: 0.3em;
 }
+
+
+
+
+
