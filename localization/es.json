@@ -1,0 +1,48 @@
+{
+    "about-me": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto",
+
+    "about-me-text": "¡Hola! Soy Matt, un estudiante de Desarrollo de Videojuegos de la Universidad Complutense de Madrid. De momento, solo he trabajado en proyectos para la universidad y ahora mismo estoy buscando un lugar en el que hacer mis prácticas en empresas. Aquí podréis encontrar algunos de los proyectos en los que he trabajado, y, si bien soy principalmente programador, también soy diseñador e incluso a veces artista, así que, ¡aseguraos de echarles un vistazo! :]",
+
+
+    "highlights": "Aspectos destacados:",
+    "play": "¡Juégalo aquí!",
+
+    "circus-desc": "Pequeño juego de ritmo que hicimos en 3 días para la <a href='https://itch.io/jam/comjamon2024' target='_blank'> ComJamOn 2024</a>. Juega como un pequeño payaso llamado Pepe e intenta sobrevivir los ataques de su enemigo dando brincos y esquivando los objetos que le lanza.",
+    "circus-highlight-1": "Arte y animaciones",
+    "circus-highlight-2": "Menús y flujo de juego",
+
+    "rushTaurant-desc": "Simulador de cocina en 2D con gestión de tiempo y recursos. El jugador tendrá que hacerse cargo de un restaurante, comprando ingredientes y atendiendo a los clientes. Además, también tendrá que lidiar con ladrones, que se colarán en el restaurante para robar la fórmula secreta.",
+    "rushTaurant-highlight-1": "Estructura del juego y manager de escenas",
+    "rushTaurant-highlight-2": "Diseño de escenario y niveles",
+    "rushTaurant-highlight-3": "Diseño e implementación de cinemáticas",
+    "rushTaurant-highlight-4": "Control de calidad y arreglo de bugs en prelanzamiento",
+    
+    "deathStation-desc": "Juego de acción y supervivencia con elementos de terror. Los niveles mezclan combate con pequeños puzles, y el objetivo será llegar al final del mapa antes de que los enemigos te maten",
+    "deathStation-highlight-1": "Sistema de vida",
+    "deathStation-highlight-2": "Implementación de enemigos y animaciones",
+    "deathStation-highlight-3": "Diseño e implementación de cinemáticas",
+    "deathStation-highlight-4": "Diseño y ajustes de la página web",
+
+    "antigravity-desc": "Juego de plataformas en 2D. El jugador tendrá que obtener la Piedra Antigravitatoria y llevarla a la nave espacial para escapar el planeta. Durante la aventura, el jugador podrá usar la Piedra Antigravitatoria para hacerse paso entre el planeta y combatir la agresiva fauna local.",
+    "antigravity-highlight-1": "Movimiento de la cámara",
+    "antigravity-highlight-2": "Sistema de vida y energía",
+    "antigravity-highlight-3": "Diseño e implementación de niveles",
+    "antigravity-highlight-4": "Objetos recogibles",
+
+
+    "programming-langs": "Lenguajes de programación",
+    "others": "Otros",
+    "languages": "Idiomas",
+    "es-lang": "Español<br>(Nativo)",
+    "en-lang": "Inglés<br>(Avanzado, C2)",
+    "fr-lang": "Francés<br>(Intermedio, B1)",
+
+
+    "contact-title": "Contáctame",
+    "contact-text": "¡Siéntete libre de mandarme un correo electrónico a <a>matt.cs091203@gmail.com</a>!",
+
+    "copyright": "Copyright © 2021-2024. Todos los derechos reservados a Matt Castellanos Silva."
+}

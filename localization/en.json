@@ -1,0 +1,47 @@
+{
+    "about-me": "About me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+
+    "about-me-text": "Hi! I'm Matt, a Video Game Development student at Universidad Complutense de Madrid. So far, I've only worked at projects for college, and I'm currently looking for a place to do my internships at. Here you'll find some of the projects I've worked at, and while I mainly do programming, I'm also a designer and sometimes even an artist, so make sure to check them out! :]",
+
+
+    "highlights": "Highlights:",
+    "play": "Play here!",
+
+    "circus-desc": "A short rythm game we made in 3 days for the <a href='https://itch.io/jam/comjamon2024' target='_blank'> ComJamOn 2024</a>. Play as a little clown called Pepe and try to survive the attacks of his enemy by jumping and dancing around in order to avoid all the items that are being thrown at him.",
+    "circus-highlight-1": "Art and animations",
+    "circus-highlight-2": "Menus and game flow",
+
+    "rushTaurant-desc": "2D kitchen simulator with time and resource management. The player will have to manage a restaurant by buying ingredients and serving customers. In addition, the player will also have to deal with thieves, who will break into the restaurant to steal the secret formula.",
+    "rushTaurant-highlight-1": "Game structure and scene manager",
+    "rushTaurant-highlight-2": "Scenario and level design",
+    "rushTaurant-highlight-3": "Cutscene design and implementation",
+    "rushTaurant-highlight-4": "QA and pre-launch bugfixing",
+
+    "deathStation-desc": "Action and survival game with elements of horror. Levels mix combat and small puzzles, and the objective is to reach the end of the map before the enemies kill you.",
+    "deathStation-highlight-1": "Health system",
+    "deathStation-highlight-2": "Enemies and animations implementation",
+    "deathStation-highlight-3": "Cutscene design and implementation",
+    "deathStation-highlight-4": "Web page design and adjustments",
+
+    "antigravity-desc": "2D platformer. The player will have to get the Antigravity Stone and bring it to the spaceship to escape the planet. During the journey, the player will be able to use the Antigravity Stone to make their way through the planet and fight off the agressive local fauna.",
+    "antigravity-highlight-1": "Camera movement",
+    "antigravity-highlight-2": "Health and energy system",
+    "antigravity-highlight-3": "Level design and implementation",
+    "antigravity-highlight-4": "Collectible items",
+
+
+    "programming-langs": "Programming languages",
+    "others": "Others",
+    "languages": "Languages",
+    "es-lang": "Spanish<br>(Native)",
+    "en-lang": "English<br>(Advanced, C2)",
+    "fr-lang": "French<br>(Intermediate, B1)",
+
+    "contact-title": "Contact me",
+    "contact-text": "Feel free to send me an e-mail at <a>matt.cs091203@gmail.com</a>!",
+
+    "copyright": "Copyright © 2021-2024. All rights reserved to Matt Castellanos Silva."
+}
