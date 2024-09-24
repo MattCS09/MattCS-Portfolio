@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
     <link rel="icon" href="resources/images/favicon.png"/>
@@ -66,19 +67,15 @@
                         </ul>
                     </div>
                     
-                    
-                    <div class="slideshow">
-                        <!-- <div class="slideshow-nav">
-                            <button class="slideshow-prev">Previous</button>
-                        </div> -->
-                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1NS5wbmc=/original/ri05v6.png" class="slide">
-                        <!-- <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1Mi5wbmc=/original/QeSTw1.png" class="slide">
-                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1My5wbmc=/original/QohBvD.png" class="slide">
-                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1MS5wbmc=/original/CANxey.png" class="slide">
-                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1NC5wbmc=/original/N7UYaO.png" class="slide">
-                        <div class="slideshow-nav">
-                            <button class="slideshow-next">Next</button>
-                        </div> -->
+                    <div class="slideshow-container">
+                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1NS5wbmc=/original/ri05v6.png" class="slides1">
+                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1Mi5wbmc=/original/QeSTw1.png" class="slides1">
+                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1My5wbmc=/original/QohBvD.png" class="slides1">
+                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1MS5wbmc=/original/CANxey.png" class="slides1">
+                        <img src="https://img.itch.zone/aW1hZ2UvMjU4NzczOC8xNTQyNDg1NC5wbmc=/original/N7UYaO.png" class="slides1">
+                        <!-- Change the 2nd parameter to the number of slideshows in the page -1 -->
+                        <button class="prev" onclick="changeSlide(-1, 0)">&#10094;</button>
+                        <button class="next" onclick="changeSlide(1, 0)">&#10095;</button>
                     </div>
                     
                 </div>
@@ -300,9 +297,8 @@
 	    <span class="on">ES</span>
 	    <span class="off">EN</span>
   	</div>
+
     
-    <br>
-    <br>
     <hr class="copyright-separator">
     <footer class="copyright">
         <p localization-key="copyright"></p>
